@@ -1,0 +1,35 @@
+{
+  "name": "example-user-backend-api",
+  "version": "1.0.0",
+  "description": "this is an example of user collection api with NODE.js (API REST, JOI, MONGODB...)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonaas/Example-User-Bakend-API.git"
+  },
+  "author": "gonaas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gonaas/Example-User-Bakend-API/issues"
+  },
+  "homepage": "https://github.com/gonaas/Example-User-Bakend-API#readme",
+  "dependencies": {
+    "@joi/date": "^2.1.0",
+    "bcrypt": "^5.0.1",
+    "boom": "^7.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express-session": "^1.17.3",
+    "express-validation": "^4.1.0",
+    "mongoose": "^6.3.6",
+    "mongoose-paginate-v2": "^1.6.3",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "ulid": "^2.3.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  }
+}
